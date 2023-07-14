@@ -1,0 +1,15 @@
+{
+  "name": "micro-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-app1": "cd container && yarn start",
+    "start-app2": "cd service-shared-components && yarn start",
+    "start-app3": "cd service-api && yarn start",
+    "start-all": "yarn start-app1 & yarn start-app2 & yarn start-app3",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

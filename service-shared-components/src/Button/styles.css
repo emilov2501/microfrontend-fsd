@@ -1,0 +1,14 @@
+.button-pmr {
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: cornflowerblue;
+  padding: 7px 10px;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+.button-pmr:hover {
+  background-color: dodgerblue;
+  cursor: pointer;
+}

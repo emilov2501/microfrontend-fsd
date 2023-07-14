@@ -1,0 +1,17 @@
+.post-card {
+  max-width: 330px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-card h4 {
+  font-size: 18px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.post-card p {
+  flex-grow: 1;
+}
